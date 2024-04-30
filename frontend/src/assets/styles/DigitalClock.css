@@ -1,0 +1,56 @@
+.analog-clock {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hand {
+    position: absolute;
+    background-color: black;
+    transform-origin: 50% 100%;
+    transform: rotate(90deg);
+  }
+  
+  .seconds {
+    height: 2px;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .minutes {
+    height: 4px;
+    width: 45%;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .hours {
+    height: 6px;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .center-dot {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .city-name {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+  }
+  

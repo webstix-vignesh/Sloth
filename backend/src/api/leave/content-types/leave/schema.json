@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leaves",
+  "info": {
+    "singularName": "leave",
+    "pluralName": "leaves",
+    "displayName": "leave",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": false
+    },
+    "department": {
+      "type": "string",
+      "required": true
+    },
+    "emp_id": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "leave_type": {
+      "type": "string",
+      "required": true
+    },
+    "reports_to": {
+      "type": "string",
+      "required": true
+    },
+    "reason": {
+      "type": "text",
+      "required": true
+    },
+    "leave_user_id": {
+      "type": "biginteger"
+    },
+    "start_date": {
+      "type": "string",
+      "required": true
+    },
+    "end_date": {
+      "type": "string",
+      "required": true
+    },
+    "leave_status": {
+      "type": "string",
+      "required": true
+    },
+    "leave_comments": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
