@@ -5,12 +5,14 @@
 > cd frontend
 
 > npm start
+> 
 local host url: http://localhost:3000/
 
 3) To start the strapi server use the below cmd:
 > cd backend
 
 > npm run develop
+> 
 local host url: http://localhost:1337/admin/
 
 4) To build the react, go to frontend folder by using cd,
